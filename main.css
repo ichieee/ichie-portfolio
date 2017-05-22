@@ -1,40 +1,44 @@
 body {
   position: relative;
   font-family: 'Baloo', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar{
-	background:transparent;
+	margin: 0;
 }
 
 li.top:hover{
 	color: #fff;
+	border-bottom: #666 3px solid;
 }
 
 h1{
 	color: #3b3b3b;
 }
-h1:hover{
-	color: #5A1F1F;
+
+.wayt{
+	color: white;
 }
 
 #intro{
-	 background:url(img/body.jpg) no-repeat bottom center scroll;
-	 background-size:100%;
-	 width: 100%;
-     height: 980px;
-     padding: 10% 0;
+	background:url(img/body.jpg) no-repeat center;
+	background-size: 100%; 
+	width: 100%;
+	height: 100%;
+    padding: 10% 0;
 }
 
 #about{
 	margin: 3% 0;
+	padding: 2% 0;
 	text-align: center;
 }
 
 .pic-ichie{
-	margin-left: 30em;
-	margin-top: 2em;
-	padding: 0;
+	
+	padding-left: 50%;
 	height: 400px;
 }
 
@@ -47,14 +51,17 @@ h1:hover{
 	height: 100px;
 	width: 1000px;
 }
-ul, .collection .with-header{
+ul{
 	list-style-type: none;
+}
+ul.collection li{
+	padding: 3px 0;
 }
 #works{
 	background:url(img/works.jpg) no-repeat bottom center scroll;
 	background-size:100%;
 	width: 100%;
-	height: 700px;
+	
 	padding: 5% 2%;
 	margin: 3% 0;
 	text-align: center;
@@ -64,7 +71,128 @@ ul, .collection .with-header{
 	background: transparent;
 	
 }
+
 #info{
+	float: left;
 	background-color: #AFEAFF;
-	margin: -10% 0;
+	margin: 8% 6% 6% 0;
+	padding: 2% 2%;
+	width: 60%;
+}
+
+#gallery{
+	margin-top: 3%;
+	padding: 2% 0;
+	text-align: center;
+	background-color: #666;
+}
+
+ul.photos li {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+ul.photos {
+	padding: 0;
+}
+
+ul#gallery-photos{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul#gallery-photos li{
+	display: block;
+	float: left;
+	width: 31%;
+	cursor: pointer;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 0 12px 7px 25px;
+	position: relative;
+}
+
+ul#gallery-photos img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+ul#gallery-photos img:hover{
+	opacity: 0.4;
+}
+
+.overlay{
+	display: none;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	pointer-events: none;
+}
+
+footer{
+	padding: 2% 0;
+	background-color: #3b3b3b;
+	color: white;
+}
+
+@media(max-width: 768px) {
+	#intro{
+	background:url(img/body.jpg) no-repeat center; 
+	width: 100%;
+    padding: 10% 0;
+	}
+	#works{
+	background:url(img/works.jpg) no-repeat bottom center scroll;
+	width: 100%;
+	padding: 5% 2%;
+	margin: 3% 0;
+	text-align: center;
+	}
+	#info,.btn-info{
+		width: 100%;
+		padding: 0;
+		height: auto;
+		text-align: center;
+	}
+	.pic-ichie{
+		height: 10%;
+		width: 60%;
+		padding-left: 40px;
+	}
+	.wayt{
+		color: #3b3b3b;
+	}
+	ul#gallery-photos li{
+		width: 48%;
+		margin: 8px;
+	}
+
+}
+
+@media(max-width: 568px) {
+		ul#gallery-photos li{
+		width: 100%;
+		margin-right: 0;
+	}
+
+}
+.test aside{
+	float: left;
+	width: 31%;
+	margin: 1%;
+	padding: 1%;
+	text-align: justify;
+}
+#contact{
+	background: #2f2f2f;
+	color: white;
 }
