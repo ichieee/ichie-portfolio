@@ -3,6 +3,7 @@ body {
   font-family: 'Baloo', cursive;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .navbar{
@@ -185,14 +186,19 @@ footer{
 	}
 
 }
-.test aside{
-	float: left;
-	width: 31%;
-	margin: 1%;
-	padding: 1%;
-	text-align: justify;
-}
 #contact{
 	background: #2f2f2f;
 	color: white;
+}
+#contact a:hover {
+	text-decoration: none;
+}
+.fa-instagram {
+	color: pink;
+}
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-twitter-square:hover{
+	color: white;
+}
+.fa-twitter-square{
+	color: #0084b4;
 }

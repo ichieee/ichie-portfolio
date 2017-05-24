@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+	$('body').scrollspy({ target: '.navbar' });
+
 	$('#gallery .photos li a').on('click', function(){
 		var category = $(this).text().toLowerCase();
 		console.log('test');

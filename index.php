@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
     <link rel="stylesheet" href="lightbox.css">
+    <script src="https://use.fontawesome.com/d20cf4c41e.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -136,19 +137,21 @@
     </section>
 
     <div id="contact">
-    <section class="test">
         <div class="container">
-        <aside>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh ex, vehicula vel quam vitae, sollicitudin egestas odio. Vivamus nec ipsum consectetur, rutrum libero ac, vestibulum sapien. Sed molestie leo leo, eu mattis metus molestie non. In porttitor lacinia nunc, maximus tincidunt sapien faucibus ac. Sed lacus nisl, convallis nec metus sit amet, aliquet tempor nibh. Duis egestas est sed ante imperdiet, eu posuere nulla consequat. Mauris ligula augue, semper in magna nec, rhoncus lacinia felis. Vestibulum eu nisl ac urna vulputate varius. In sed urna id dui blandit interdum. Vivamus facilisis justo vitae pulvinar lobortis. Morbi blandit fermentum nulla, ac varius quam ullamcorper sed. Sed nec diam nisl.</p>
-        </aside>
-        <aside>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh ex, vehicula vel quam vitae, sollicitudin egestas odio. Vivamus nec ipsum consectetur, rutrum libero ac, vestibulum sapien. Sed molestie leo leo, eu mattis metus molestie non. In porttitor lacinia nunc, maximus tincidunt sapien faucibus ac. Sed lacus nisl, convallis nec metus sit amet, aliquet tempor nibh. Duis egestas est sed ante imperdiet, eu posuere nulla consequat. Mauris ligula augue, semper in magna nec, rhoncus lacinia felis. Vestibulum eu nisl ac urna vulputate varius. In sed urna id dui blandit interdum. Vivamus facilisis justo vitae pulvinar lobortis. Morbi blandit fermentum nulla, ac varius quam ullamcorper sed. Sed nec diam nisl.</p>
-        </aside>
-        <aside>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh ex, vehicula vel quam vitae, sollicitudin egestas odio. Vivamus nec ipsum consectetur, rutrum libero ac, vestibulum sapien. Sed molestie leo leo, eu mattis metus molestie non. In porttitor lacinia nunc, maximus tincidunt sapien faucibus ac. Sed lacus nisl, convallis nec metus sit amet, aliquet tempor nibh. Duis egestas est sed ante imperdiet, eu posuere nulla consequat. Mauris ligula augue, semper in magna nec, rhoncus lacinia felis. Vestibulum eu nisl ac urna vulputate varius. In sed urna id dui blandit interdum. Vivamus facilisis justo vitae pulvinar lobortis. Morbi blandit fermentum nulla, ac varius quam ullamcorper sed. Sed nec diam nisl.</p>
-        </aside>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                   <a href="https://www.facebook.com/ichieeee" class="fa fa-facebook-square fa-5x" aria-hidden="true"></a> 
+                </div>
+                <div class="col-md-4 text-center">
+                     <a href="https://twitter.com/ichieeeXD" class="fa fa-twitter-square fa-5x" aria-hidden="true"></a>
+                </div>
+                <div class="col-md-4 text-center">
+                     <a href="https://www.instagram.com/ichieeexd/" class="fa fa-instagram fa-5x" aria-hidden="true"></a>
+                </div>
+
+            </div>
+     
         </div>
-    </section>
      </div>
 
     <footer>
