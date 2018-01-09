@@ -139,13 +139,13 @@
     <div id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-xs-4 col-md-4 text-center">
                    <a href="https://www.facebook.com/ichieeee" class="fa fa-facebook-square fa-5x" aria-hidden="true"></a> 
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-xs-4 col-md-4 text-center">
                      <a href="https://twitter.com/ichieeeXD" class="fa fa-twitter-square fa-5x" aria-hidden="true"></a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-xs-4 col-md-4 text-center">
                      <a href="https://www.instagram.com/ichieeexd/" class="fa fa-instagram fa-5x" aria-hidden="true"></a>
                 </div>
 
